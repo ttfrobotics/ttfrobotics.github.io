@@ -6,19 +6,18 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "TTF Robotics",
+    template: "%s | ttfrobotics.github.io",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Founder of TTF Robotics, enk.icu",
   openGraph: {
-    title: "chronark.com",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    title: "TTF Robotics",
+    description: "Founder of TTF Robotics, enk.icu",
+    url: "https://ttfrobotics.github.io",
+    siteName: "TTF Robotics",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://ttfrobotics.github.io",
         width: 1920,
         height: 1080,
       },
@@ -42,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.ico",
   },
 };
 const inter = Inter({
@@ -62,12 +61,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
       <head>
         <Analytics />
       </head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+        className={`bg-black ${
+          process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+        }`}
       >
         {children}
       </body>
