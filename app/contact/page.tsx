@@ -1,15 +1,22 @@
 "use client";
-import { Github, Mail, X } from "lucide-react";
+import {
+  Facebook,
+  Github,
+  Mail,
+  Youtube,
+  TreeDeciduous,
+  Instagram,
+} from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
   {
-    icon: <X size={20} />,
-    href: "https://twitter.com/EnkhboldGanbol2",
-    label: "Twitter",
-    handle: "@enkhboldganbol2",
+    icon: <Youtube size={20} />,
+    href: "https://youtube.com/ttfrobotics",
+    label: "Youtube",
+    handle: "@ttfrobotics",
   },
   {
     icon: <Mail size={20} />,
@@ -21,6 +28,24 @@ const socials = [
     icon: <Github size={20} />,
     href: "https://github.com/ttfrobotics",
     label: "Github",
+    handle: "ttfrobotics",
+  },
+  {
+    icon: <Facebook size={20} />,
+    href: "https://fb.com/ttf2k17",
+    label: "Facebook",
+    handle: "ttf2k17",
+  },
+  {
+    icon: <TreeDeciduous size={20} />,
+    href: "https://linktr.ee/ttfrobotics",
+    label: "Linktree",
+    handle: "ttfrobotics",
+  },
+  {
+    icon: <Instagram size={20} />,
+    href: "https://instagram.com/ttfrobotics",
+    label: "Instagram",
     handle: "ttfrobotics",
   },
 ];
