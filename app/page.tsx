@@ -38,7 +38,7 @@ export default function Home() {
           Learn more via{" "}
           <Link
             target="_blank"
-            href="https://linktr.ee/ttfrobotics"
+            href="/contact"
             className="underline duration-500 hover:text-zinc-300"
           >
             LinkTree.
@@ -46,7 +46,7 @@ export default function Home() {
           Subscribe to{" "}
           <Link
             target="_blank"
-            href="https://linktr.ee/ttfrobotics"
+            href="/contact"
             className="underline duration-500 hover:text-zinc-300"
           >
             our Youtube channel
