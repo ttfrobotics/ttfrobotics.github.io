@@ -2,7 +2,6 @@
 import {
   Facebook,
   Github,
-  Mail,
   Youtube,
   TreeDeciduous,
   Instagram,
@@ -17,12 +16,6 @@ const socials = [
     href: "https://youtube.com/ttfrobotics",
     label: "Youtube",
     handle: "@ttfrobotics",
-  },
-  {
-    icon: <Mail size={20} />,
-    href: "mailto:enkhbold470@gmail.com",
-    label: "Email",
-    handle: "enkhbold470@gmail.com",
   },
   {
     icon: <Github size={20} />,
